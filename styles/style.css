@@ -7,6 +7,12 @@
 
 }
 
+a{
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #EFF2EF;
+}
+
 h1{
   font-family: 'Raleway', sans-serif;
   font-size: 50px;
@@ -38,6 +44,28 @@ h2{
   font-family: 'Raleway', sans-serif;
 }
 
+.ui.borderless.menu{
+  height: 70px !important;
+  display: flex !important;
+  justify-content: right !important;
+  font-size: 20px;
+}
+
+.projects{
+  padding: 0;
+  margin-left: 70% !important;
+
+}
+
+.item{
+  width: 150px;
+}
+
+.paragraph{
+  margin-top: 30%;
+  margin-left: 40%;
+  width: 300px;
+}
 
 
 
