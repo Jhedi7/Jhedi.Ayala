@@ -11,6 +11,10 @@ h1{
   font-family: 'Raleway', sans-serif;
 
 }
+body {
+      font-family: 'Raleway', sans-serif;
+        /*font-size: 48px;*/
+      }
 
 .intro{
   position: absolute;
