@@ -3,36 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Jhedi Ayala</title>
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
-    <script src=" https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.js"></script>
-
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
 
 <body>
 
+<div id="particles-js"></div>
+
+<div class="header">
   <div class="ui top fixed menu">
-  <div class="item">
-    <img src="/images/logo.png">
+    <div class="item">
+      <img src="/images/logo.png">
+    </div>
+    <a class="item">Features</a>
+    <a class="item">Testimonials</a>
+    <a class="item">Sign-in</a>
   </div>
-  <a class="item">Features</a>
-  <a class="item">Testimonials</a>
-  <a class="item">Sign-in</a>
-</div>
-<div class="ui bottom fixed menu">
-  <div class="item">
-    <img src="/images/logo.png">
+  <div class="headerImage">
+    <p>header image</p>
   </div>
-  <a class="item">Features</a>
-  <a class="item">Testimonials</a>
-  <a class="item">Sign-in</a>
 </div>
-<p></p>
-<p></p>
 
 
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
+<script>
+  particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
+</script>
 </body>
 </html>

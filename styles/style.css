@@ -1,0 +1,8 @@
+.headerImage{
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+  background-image: url('../assets/header.gif');
+}
