@@ -7,12 +7,24 @@
 
 }
 
+h1{
+  font-family: 'Raleway', sans-serif;
+
+}
+
 .intro{
   position: absolute;
   margin-top: 22%;
   margin-left: 20%;
   color: white;
   padding: 0;
+
+}
+.ui.basic.button{
+  border-color: white !important;
+  position: absolute !important;
+  color: white !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 
