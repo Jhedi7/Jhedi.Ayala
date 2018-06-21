@@ -108,6 +108,7 @@ div.about-picture{
 }
 
 .footer{
+  overflow: hidden;
   margin-bottom: 0;
   margin-top: 30%;
   width: 100%;
@@ -116,22 +117,24 @@ div.about-picture{
   border-top: : 2px solid;
   border-color: rgb(222, 222, 223);
   border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: rgba(0,0,0,.125);
+  border-top-width: 1px;
+  border-top-color: rgba(0,0,0,.125);
 
 
 }
 .footer-icons{
+  color: grey;
   position: absolute;
   height: 50px;
   width: 30%;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 90%;
   display: flex;
   /*justify-content: flex-end !important;*/
 
 }
 .copy-right{
+  color: grey;
   margin-top: 15px;
   width: 30%;
   margin-left: 5%;
