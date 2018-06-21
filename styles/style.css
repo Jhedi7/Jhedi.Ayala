@@ -36,6 +36,24 @@ h2{
   margin-top: 25%;
   margin-left: 25%;
 }
+.paragraph-container{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+
+}
+
+.about-picture{
+  position: absolute;
+  margin-top: 50px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+
+
+}
 
 .ui.basic.button{
   border-color: white !important;
@@ -45,10 +63,11 @@ h2{
 }
 
 .ui.borderless.menu{
-  height: 70px !important;
+  height: 50px !important;
   display: flex !important;
   justify-content: right !important;
   font-size: 20px;
+  margin-bottom: 0;
 }
 
 .projects{
@@ -62,9 +81,60 @@ h2{
 }
 
 .paragraph{
+  width: 350px;
+
+}
+.about-header{
+  margin-top: 0;
+  width: 100%;
+  height: 50%;
+  background-color: rgb(244, 248, 250);
+  display: flex;
+  justify-content: center;
+  border-bottom: : 2px solid !important;
+  border-color: rgb(222, 222, 223);
+  border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(222, 222, 223);
+}
+div.about-picture{
+    background-image: url("../assets/jhedi2_40.jpg");
+    background-size: cover;
+}
+
+.header-icons{
+  position: absolute;
+  margin-top: 270px;
+}
+
+.footer{
+  margin-bottom: 0;
   margin-top: 30%;
-  margin-left: 40%;
-  width: 300px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  border-top: : 2px solid;
+  border-color: rgb(222, 222, 223);
+  border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(0,0,0,.125);
+
+
+}
+.footer-icons{
+  position: absolute;
+  height: 50px;
+  width: 30%;
+  margin-top: 10px;
+  margin-left: 90%;
+  display: flex;
+  /*justify-content: flex-end !important;*/
+
+}
+.copy-right{
+  margin-top: 15px;
+  width: 30%;
+  margin-left: 5%;
 }
 
 
