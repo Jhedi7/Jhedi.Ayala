@@ -6,48 +6,286 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <script src=" https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <link rel="stylesheet" type="text/css" href="./styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:200i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 
 <body>
+  
+    
 
-<div id="particles-js">
-
-<div class="container">
-
-  <div class="intro">
-    <h1> Jhedi Ayala </h1>
-    <h2>Full-stack web developer</h2>
-    <button class="ui basic button"> <a href="About.html" target="_blank"> Enter </a></button>
-
-  </div>
-
-</div>
-
-</div>
-
-<!-- <div class="header">
-  <div class="ui top fixed menu">
-    <div class="item">
-      <img src="/images/logo.png">
-    </div>
-    <a class="item">Features</a>
-    <a class="item">Testimonials</a>
-    <a class="item">Sign-in</a>
-  </div>
-  <div class="headerImage">
-    <p>header image</p>
+<!-- <div id="particles-js">
+  <div class="container">
+    <div class="intro">
+      <h1> Jhedi Ayala </h1>
+      <h2>Full-stack web developer</h2> -->
+      <!-- <button class="ui basic button"> <a href="About.html" target="_blank"> Enter </a></button> -->
+    <!-- </div>
   </div>
 </div> -->
 
+<!-- <div class="ui borderless menu">
+    <a class="item"> Jhedi Ayala </a>
+    <a class="item projects"> Projects </a>
+    <a class="item "> About </a>
+</div> -->
 
-<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<div class="new-menu">
+
+  <div class="name">
+    <div class="name-text">
+      <a class="name-link-font"> Jhedi Ayala </a>
+    </div>
+  </div>
+
+  <div class="projects-link">
+    <div class="project-text">
+      <a class="projects-font"> Projects </a>
+    </div>
+  </div>
+
+  <div class="about-contact">
+    <div class="about-text">
+      <a class="about-font"> About </a>
+    </div>
+  </div>
+
+  <div class="contact">
+      <div class="contact-text">
+        <a class="contact-font"> Contact </a>
+      </div>
+    </div>
+
+</div>
+
+<div id="triggers">
+    <div id="t1"></div>
+    <div id="t2"></div>
+    <div id="t3"></div>
+  </div>
+
+<div id="pinContainer">
+
+    <section class="panel main">
+      
+      <div id="particles-js">
+          <div class="container">
+            <div class="intro">
+              <h1> Jhedi Ayala </h1>
+              <h2>Full-stack web developer</h2>
+              <!-- <button class="ui basic button"> <a href="About.html" target="_blank"> Enter </a></button> -->
+            </div>
+          </div>
+        </div>
+    </section>
+    
+    <section class="panel project" id="projects">
+      
+      <div class="portfolio-font">
+        <h1>Portfolio</h1>
+      </div>
+        <div class="additionalContent">
+
+          <div class="portfolio">
+
+            <div class="ui three column grid">
+                <div class="column">
+                  <div class="ui segment">
+                    <img>
+                    project info here
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="ui segment">
+                    <img>
+                    project info here
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="ui segment">
+                    <img>
+                    project info here
+                  </div>
+                </div>
+              </div>
+
+              <div class="ui three column grid">
+                  <div class="column">
+                    <div class="ui segment">
+                      <img>
+                      project info here
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui segment">
+                      <img>
+                      project info here
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="ui segment">
+                      <img>
+                      project info here
+                    </div>
+                  </div>
+                </div>
+
+                
+
+                </div>
+
+        </div>
+           
+            
+    </section>
+
+    
+
+    <section class="panel about">
+      
+        <div class="about-header">
+            <!-- <div class="about-picture"></div> -->
+            <div class="column picture">
+                <div class="ui segment">
+                  <img>
+                  picture here
+                </div>
+          
+            <!-- <div class="header-icons">
+              <i class="big circular linkedin in icon"></i>
+              <i class="big circular github icon"></i>
+              <i class="big circular twitter icon"></i>
+            </div> -->
+          
+          </div>
+          
+          
+          
+          <div class="paragraph-container">
+            <div class="paragraph">
+              <h2>About me</h2>
+              <p> Software Engineer interested in the intersections of software, machine learning, and the future. 
+                Excited to build new technologies that aid development and empower communities. <br> <br>
+          
+                My background in music, the arts, and improv comedy has equipped me with the soft skills needed to interface with clients of all backgrounds
+                 and the sensitivity, and skill, to bring their visions into reality.</p>
+            </div>
+          </div>
+    </section>
+
+    <section class="panel bordeaux last">
+      <div class="contact-font-last">
+        <H1>Contact</H1>
+      </div>
+
+      <div class="column map">
+          <div class="ui segment">
+            <img>
+            map here or cute pic of dogs
+          </div>
+    </section>
+
+  </div>
+
+
+
+
+
 
 <script>
+
+                        //particle.js
+
   particlesJS.load('particles-js', 'particles.json', function() {
   console.log('callback - particles.js config loaded');
 });
+
+                        //scrollmagic
+
+console.clear();
+console.log("ScrollMagic v%s loaded", ScrollMagic.version);
+
+// init
+var controller = new ScrollMagic.Controller();
+
+// add scene for pin
+var scene = new ScrollMagic.Scene({
+        triggerElement: "#pinContainer",
+        triggerHook: "onLeave",
+        duration: "300%"
+    })
+    .setPin("#pinContainer")
+    // .addIndicators()
+    .addTo(controller); // add indicators (requires plugin)
+
+// add scenes for animations
+new ScrollMagic.Scene({
+    triggerElement: "#triggers #t1",
+    triggerHook: "onLeave",
+    duration: "100%"
+})
+.setTween(TweenMax.fromTo("section.panel.project", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone}))
+// .addIndicators() // add indicators (requires plugin)
+.addTo(controller);
+    
+new ScrollMagic.Scene({
+    triggerElement: "#triggers #t2",
+    triggerHook: "onLeave",
+    duration: "100%"
+})
+.setTween(new TimelineMax()
+          .to("section.panel .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
+          .fromTo("section.panel.about",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+         )
+// .addIndicators() // add indicators (requires plugin)
+.addTo(controller);
+    
+    
+new ScrollMagic.Scene({
+    triggerElement: "#triggers #t3",
+    triggerHook: "onLeave",
+    duration: "100%"
+})
+.setTween(TweenMax.fromTo("section.panel.bordeaux", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone}))
+// .addIndicators() // add indicators (requires plugin)
+.addTo(controller);
+
+
+$('nav a').on('click',function() {
+    controller.scrollTo($(this).attr('href')); 
+});
+
+// console.clear();
+// console.log("ScrollMagic v%s loaded", ScrollMagic.version);
+
+// // init
+// var controller = new ScrollMagic.Controller();
+
+// // define movement of panels
+// var wipeAnimation = new TimelineMax()
+//     .fromTo("section.panel.turqoise", 1, {x: "-100%"}, {x: "0%", ease: Linear.easeNone})  // in from left
+//     .to("section.panel .additionalContent", 1, {y: "-100%", ease: Linear.easeNone}) // scroll Content
+//     .fromTo("section.panel.green",    1, {x:  "100%"}, {x: "0%", ease: Linear.easeNone})  // in from right
+//     .fromTo("section.panel.bordeaux", 1, {y: "-100%"}, {y: "0%", ease: Linear.easeNone}); // in from top
+
+// // create scene to pin and link animation
+// var scene = new ScrollMagic.Scene({
+//         triggerElement: "#pinContainer",
+//         triggerHook: "onLeave",
+//         duration: "400%"
+//     })
+//     .setPin("#pinContainer")
+//     .setTween(wipeAnimation)
+    // .addIndicators() // add indicators (requires plugin)
+//     .addTo(controller);
 
 </script>
 </body>

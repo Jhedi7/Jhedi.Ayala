@@ -1,5 +1,6 @@
 #particles-js {
-  background: rgb(37, 40, 52);
+  /* background: rgb(37, 40, 52); */
+  background: rgb(242, 240, 236);
   overflow: hidden;
   height: 100%;
   width: 100%;
@@ -10,24 +11,45 @@
 a{
   font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  color: #EFF2EF;
+  color: rgb(64, 64, 64) !important;
+  /* color: #EFF2EF; */
+  
 }
 
 h1{
-  font-family: 'Raleway', sans-serif;
-  font-size: 50px;
+  font-family: 'Inconsolata', monospace;
+  
   padding: 0;
+  font-size: 45px;
+    line-height: 45px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    letter-spacing: 0px;
 
 }
 h2{
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+  
   padding: 0;
+  font-size: 45px;
+    line-height: 45px;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+    letter-spacing: 0px;
 
 }
 .intro{
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  margin-right: 1000px;
   position: absolute;
-  color: #EFF2EF;
+  color: rgb(66, 66, 66);
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 400;
+  
+  letter-spacing: 0px;
 }
 
 .container{
@@ -38,21 +60,26 @@ h2{
 }
 .paragraph-container{
   position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 150px;
+  width: 50%;
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-top: 450px;
+  margin-left: 300px;
+  
+  
 
 }
+.paragraph{
+  /* margin-left: 50px; */
+}
 
-.about-picture{
+.column.picture{
   position: absolute;
-  margin-top: 50px;
-  height: 180px;
-  width: 180px;
-  border-radius: 50%;
-
-
+  margin-top: 400px;
+  margin-left: 800px;
+  height: 400px;
+  width: 400px;
+  /* border-radius: 50%; */
 }
 
 .ui.basic.button{
@@ -63,43 +90,57 @@ h2{
 }
 
 .ui.borderless.menu{
-  height: 50px !important;
+  position: fixed;
+  top: 0;
+  height: 200px !important;
+  width: 100% !important;
   display: flex !important;
   justify-content: right !important;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 0;
+  background-color: white !important;
+  z-index: 100;
+  /* color: white !important; */
+  /* position: absolute; */
 }
 
-.projects{
+/* .projects{
   padding: 0;
   margin-left: 70% !important;
 
-}
+} */
 
-.item{
-  width: 150px;
-}
+/* .item{
+  width: 200px;
+} */
 
 .paragraph{
   width: 350px;
 
 }
-.about-header{
-  margin-top: 0;
+/* .about-header{ */
+  /* margin-top: 0;
   width: 100%;
-  height: 50%;
-  background-color: rgb(244, 248, 250);
-  display: flex;
-  justify-content: center;
-  border-bottom: : 2px solid !important;
-  border-color: rgb(222, 222, 223);
-  border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: rgb(222, 222, 223);
+  height: 50%; */
+  /* background-color: rgb(244, 248, 250); */
+  /* background: rgb(242, 240, 236);
+  display: flex; */
+  /* justify-content: center; */
+  /* border-bottom: 0.5px solid !important;
+  border-color: rgba(0,0,0,.125); */
+  
+/* } */
+
+.about{
+  background: rgb(242, 240, 236);
+  /* background: white; */
 }
+
 div.about-picture{
     background-image: url("../assets/jhedi2_40.jpg");
+    
     background-size: cover;
+    
 }
 
 .header-icons{
@@ -114,7 +155,7 @@ div.about-picture{
   width: 100%;
   height: 50px;
   display: flex;
-  border-top: : 2px solid;
+  border-top: 2px solid;
   border-color: rgb(222, 222, 223);
   border-top-style: solid;
   border-top-width: 1px;
@@ -140,6 +181,171 @@ div.about-picture{
   margin-left: 5%;
 }
 
+#pinContainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.panel {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 
+.panel .additionalContent {
+  top: 100%;
+  position: absolute;
+}
 
+#triggers {
+  position: absolute;
+  height: 100%;
+}
+#triggers div {
+  position: absolute;
+}
+#triggers #t1 {
+  top: 0;
+}
+#triggers #t2 {
+  top: 100%;
+}
+#triggers #t3 {
+  top: 200%;
+}
+#triggers #t4 {
+  top: 300%;
+}
+
+.bordeaux {
+  background-color: white;
+}
+
+.project{
+  background-color: white;
+}
+
+.new-menu{
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  border-bottom: 0.1em solid lightgray;
+  
+}
+.name{
+  height: 100%;
+  width: 40%;
+}
+.projects-link{
+  height: 100%;
+  width: 25%;
+}
+.about-contact{
+  height: 100%;
+  width: 10%;
+}
+.contact{
+  height: 100%;
+  width: 25%;
+}
+
+.name-text{
+  margin-top: 10%;
+  height: 50px;
+  align-content: center;
+  
+}
+.project-text{
+  margin-top: 20%;
+  height: 50px;
+  align-content: center;
+}
+.about-text{
+  margin-top: 50%;
+  height: 50px;
+  align-content: flex-end;
+}
+.contact-text{
+  margin-top: 20%;
+  height: 50px;
+  align-content: center;
+  /* margin-left: 5px; */
+}
+.name-link-font{
+  font-family: 'Unica One', cursive;
+  margin-left: 150px;
+  line-height: 60px;
+  /* height: 45px; */
+  font-size: 40px;
+  font-weight: 400;    
+  cursor: pointer;
+  /* border-color: transparent;
+    border-style: solid;
+    border-width: 0px 0px 3px; */
+    letter-spacing: 3px;
+}
+.projects-font{
+  font-family: 'Unica One', cursive;
+  margin-left: 240px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  /* border-style: solid;
+    border-width: 0px 0px 3px; */
+    letter-spacing: 3px;
+
+}
+.about-font{
+  font-family: 'Unica One', cursive;
+  margin-left: 50px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  /* border-style: solid;
+    border-width: 0px 0px 3px; */
+    letter-spacing: 3px;
+}
+.contact-font{
+  font-family: 'Unica One', cursive;
+  margin-left: 50px;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  /* border-style: solid;
+    border-width: 0px 0px 3px; */
+    letter-spacing: 3px;
+}
+
+.portfolio{
+  /* background-color: blue; */
+  width: 100%;
+  margin-left: 280px;
+  margin-bottom: 60px;
+  
+}
+.segment{
+  height: 300px;
+  width: 300px;
+  border: 0.1em solid lightgray;
+}
+.portfolio-font{
+  margin-top: 450px;
+  margin-left: 30px;
+}
+.contact-font-last{
+  width: 30%;
+  margin-top: 400px;
+  margin-left: 300px;
+}
+
+.column.map{
+  margin-left: 800px;
+}
 
