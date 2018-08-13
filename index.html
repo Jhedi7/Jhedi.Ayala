@@ -203,5 +203,19 @@ require('dotenv').config();
 </body>
 <div class="footer"><p class="footer-text"> &copy; 2018 Jhedi Ayala </p></div>
 <script type="text/javascript" src="app.js"></script>
+
+<script>
+ // Initialize and add the map
+ function initMap() {
+    // The location of Uluru
+    let brooklyn = {lat: 40.673169, lng: -73.960726};
+    // The map, centered at Uluru
+    let map = new google.maps.Map(
+        document.getElementById('map'), {zoom: 13, center: brooklyn});
+    // The marker, positioned at Uluru
+    let marker = new google.maps.Marker({position: brooklyn, map: map});
+  }
+
+</script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9DsdY1pSm__ibmV7ybiWBhDHz1Yv3xx4&callback=initMap"></script>
 </html>
