@@ -11,16 +11,16 @@ console.log('callback - particles.js config loaded');
 
                                         //MAP
 
- // Initialize and add the map
- function initMap() {
-    // The location of Uluru
-    let brooklyn = {lat: 40.673169, lng: -73.960726};
-    // The map, centered at Uluru
-    let map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 13, center: brooklyn});
-    // The marker, positioned at Uluru
-    let marker = new google.maps.Marker({position: brooklyn, map: map});
-  }
+//  // Initialize and add the map
+//  function initMap() {
+//     // The location of Uluru
+//     let brooklyn = {lat: 40.673169, lng: -73.960726};
+//     // The map, centered at Uluru
+//     let map = new google.maps.Map(
+//         document.getElementById('map'), {zoom: 13, center: brooklyn});
+//     // The marker, positioned at Uluru
+//     let marker = new google.maps.Marker({position: brooklyn, map: map});
+//   }
 
 
 
