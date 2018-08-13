@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "dotenv": "^6.0.0",
+    "npm": "^6.3.0",
     "particles.js": "^2.0.0"
   },
   "devDependencies": {
