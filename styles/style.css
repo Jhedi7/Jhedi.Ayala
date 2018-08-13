@@ -364,7 +364,7 @@ div.intro{
   background-color: lightgray;
 } */
 
-div#map{
+div.map{
   
   height: 100%;
   width: 100%;
@@ -380,7 +380,7 @@ div#map{
   grid-row: 1/2;
 }
 
-#map{
+.map{
   grid-column: 3 / 6;
   grid-row: 1/3;
   height: 100%;
