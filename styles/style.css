@@ -155,6 +155,7 @@ div.intro{
 
 
 .portfolio-container{
+  /* margin-top: 5%; */
   height: 100%;
   width: 100%;
  
@@ -164,7 +165,7 @@ div.intro{
   grid-template-columns: repeat(7, 1fr);
   grid-auto-rows: 25%;
   grid-gap: 3rem;
-  margin-top: 5%;
+  /* margin-top: 5%; */
   margin-left: 15%;
   
   width: 80%;
@@ -400,7 +401,7 @@ div.intro{
 
 
 .about-picture{
-  background-image: url("../assets/jhedi2_40\ 2.jpg");
+  background-image: url("../assets/jhedi2_40\ 3.jpg");
   background-size: cover;
   height: 100%;
   width: 100%;
