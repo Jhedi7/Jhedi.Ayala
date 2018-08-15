@@ -1,4 +1,7 @@
 
+ @import "mobile.css";
+
+
                                                                             /* NAV BAR */
 .new-menu{
   display: flex;
@@ -17,6 +20,15 @@
   flex-direction: row;
 
 }
+
+/* .contact-container div:nth-child(even){
+  background-color: lightblue;
+}
+
+.contact-container div:nth-child(odd){
+  background-color: lightgray;
+} */
+
 ul{
   width: 100%;
   align-items: center;
@@ -50,9 +62,7 @@ li {
   float: right;
 }
 
-/* .link{
-  margin-top: 30%;
-} */
+
 
 .name-text{
   color: #212d50;
@@ -326,7 +336,7 @@ div.intro{
   width: 0%;
   top: 0%;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   overflow: hidden;
@@ -463,17 +473,13 @@ div.intro{
 } */
 
 div#map{
-  
-  height: 400px;
-  width: 100%;
- 
-  
-  margin-left: 35%; 
- b
+ height: 400px;
+ width: 100%;
+ margin-left: 35%; 
 }
 
 
-.contact-page{
+.contact-page{ 
   grid-column: 1 / 3;
   grid-row: 1/2;
 }

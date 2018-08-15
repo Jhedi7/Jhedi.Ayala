@@ -1,5 +1,65 @@
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 480px){
+  .mobile-nav{
+    
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    width: 5%;
+    margin-left: 95% !important;
+    margin-top: 3%;
+    
+  
+  }
+  
+  .btn-line {
+    width: 30px;
+    height: 4px;
+    margin: 0 0 5px 0;
+    background: #43454B;
+    
+  }
+
+  
+
+  .new-menu .menu-nav{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    display: block;
+    float: none;
+    text-align: left;
+    width: 100%;
+    margin: 0%;
+    z-index: 100;
+    /* background: grey; */
+  
+  }
+  nav ul .open{
+    height: auto;
+  }
+  
+  .name-link-font .projects-font .about-font .contact-font{
+    color: black;
+    padding: 10px;
+    border-bottom: solid 1px lightgrey;
+    display: block;
+    margin: 0;
+  }
+
+  nav ul li a{
+    color: white;
+    padding: 10px;
+    border-bottom: solid 1px lightgrey;
+    display: block;
+    margin: 0;
+  }
+
+
+}
+
 /* @media screen and (min-width: 1330px) {
   .portfolio {
     grid-template-columns: repeat(3, 1fr); 
