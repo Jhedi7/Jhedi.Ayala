@@ -3,7 +3,10 @@
  @import "nav.css";
 
 
-
+*{
+  padding: 0;
+  margin: 0;
+}
                                                                      /* LANDING PAGE */
 
 #particles-js {
