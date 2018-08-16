@@ -127,6 +127,8 @@ div.intro{
 }
 
  .box-2{
+  height: 100%;
+  width: 100%;
   grid-column: 3 / 5;
   grid-row: 2/3;
   background-image: url("../assets/umbrellas.jpeg");
@@ -158,6 +160,8 @@ div.intro{
 }
 
 .box-3{
+  height: 100%;
+    width: 100%;
   grid-column: 5 / 7;
   grid-row: 2/3;
   
@@ -190,6 +194,8 @@ div.intro{
 }
 
 .box-4{
+  height: 100%;
+    width: 100%;
   grid-column: 3 / 5;
   grid-row: 3 / 4;
   background-image: url("../assets/pixeldog.gif");
@@ -220,6 +226,8 @@ div.intro{
 }
 
 .box-5{
+  height: 100%;
+    width: 100%;
   grid-column: 5 / 7;
   grid-row: 3 / 4 ;
   background-image: url("../assets/dog.jpg");
