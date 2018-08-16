@@ -1,15 +1,9 @@
 
- /* @import "nav.css"; */
-/* @import "mobile.css" (max-width: 575px ); */
-/* @import "lg.css"; */
-  /* @import url(./mobile.css)(max-width: 575px); */
- /* @import url(/mobile.css)(max-width: 575px);  */
-  @import "mobile.css";
 
- 
- 
+  @import "mobile.css";
   @import "pad.css";
- /* @import "medium.css";  */
+  @import "medium.css";  
+  @import "lg.css";
  
 
 
