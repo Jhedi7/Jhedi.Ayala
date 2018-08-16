@@ -211,6 +211,27 @@
     grid-row: 2 !important;
   }
 
+  .hover-info{
+    height: 100% !important;
+    width: 0% !important;
+    top: 0% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    transition: 0.3s ease !important;
+    background-color: white !important;
+  
+  }
+
+  .box-1:hover .hover-info{
+    width: 100% !important;
+    border: solid 1px !important;
+    border-color: lightgrey !important;
+  
+  }
+
   .box-2{
     grid-column: 1 !important;
     grid-row: 3 !important;
