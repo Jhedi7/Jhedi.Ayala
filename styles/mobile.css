@@ -192,7 +192,7 @@
       /* margin-left: 10% !important; */
       text-align: justify !important;
       font-family: 'Open Sans', sans-serif !important;
-      font-size: 10px !important;
+      font-size: 12px !important;
       height: 100%;
       width: 88%;
 }
@@ -234,15 +234,14 @@
   
 
   .paragraph-container{
-    /* display: none !important; */
-    /* background: rgb(242, 240, 236); */
+    
     background: #F9F8F6;
-    margin-top: 280% !important;
+    margin-top: 300% !important;
     width: 100% !important;
     height: 100% !important;
-    /* display: flex;  */
+    display: flex;  
     
-    /* align-items: center; */
+    align-items: center;
     
   }
   
@@ -285,27 +284,17 @@
   color: #43454B !important;
 }
   
-  /* div.about-picture img{
-    background-image: url("../assets/jhedi2_40\ 3.jpg");
-    background-size: cover;
-    display: block;
-  max-width: 100%;
-  height: auto;
-    margin-right: 10%;
-    grid-column: 1 !important;
-    grid-row: 2 !important;
-  } */
+  
   .about-picture {
     background-image: url(../assets/jhedi2_40\ 3.jpg);
     background-size: contain !important;
     background-repeat: no-repeat !important;
     height: 400px !important;
     width: 400px !important;
-    /* margin-right: 10% !important; */
-   
-    
+    margin-top: 10% !important;
     grid-column: 1 !important;
     grid-row: 2 !important;
+    display: block !important;
 }
 
 
@@ -351,7 +340,7 @@
   
     width: 100% !important;
     height: 100% !important;
-    margin-top: 30%;
+    margin-top: 50%;
     
   } 
    
