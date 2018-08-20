@@ -396,7 +396,7 @@
       .contact-page{ 
         grid-column: 2 / 5 !important;
     grid-row: 3 !important;
-    margin-top: 10% !important;
+    margin-top: 20% !important;
       }
       
       /* #map{ */
@@ -440,7 +440,7 @@
         bottom: 0 !important;
         border-top: 1px solid lightgray !important;
         margin-top: 20% !important;
-        height: 5% !important; 
+        height: 8% !important; 
         width: 100% !important;
     }
     .footer-text {
