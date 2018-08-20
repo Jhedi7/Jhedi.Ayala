@@ -1,4 +1,12 @@
 
+$(document).ready(function(){
+    
+    $('.mobile-nav').on('click', function(){
+        $("nav ul li").toggleClass("mobile");
+        console.log('clicking')
+    });
+});
+
 
 
 console.log('CONNECTED!')
