@@ -1,20 +1,23 @@
 
 $(document).ready(function(){
     
+    //mobile nav
     $('.mobile-nav').on('click', function(){
         $("nav ul li").toggleClass("mobile");
         console.log('clicking')
     });
 
+
+    //side scroll button
     $(window).scroll(function(){
         if ($(this).scrollTop() > 50) {
-            $('#backToTop').fadeIn('slow');
+            $('#scroll').fadeIn('slow');
         } else {
-            $('#backToTop').fadeOut('slow');
+            $('#scroll').fadeOut('slow');
         }
     });
     $('#backToTop').click(function(){
-        $("html, body").animate({ scrollTop: 0 }, 500);
+        $("html, body").animate({ scrollTop: 0 }, 700);
         return false;
     });
 
