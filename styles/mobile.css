@@ -58,6 +58,16 @@
   
 }
 
+.fa-github:before {
+  content: "\f09b";
+  color: gray !important;
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+  color: gray !important;
+}
+
 /* Style the icon bar links */
 .icon-bar a {
   display: none;
