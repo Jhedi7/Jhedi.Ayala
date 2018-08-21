@@ -21,6 +21,15 @@ $(document).ready(function(){
         return false;
     });
 
+    //side bar
+    // $(window).scroll(function(){
+    //     if ($(this).scrollTop() > 150) {
+    //         $('.icon-bar').fadeIn('slow');
+    //     } else {
+    //         $('.icon-bar').fadeOut('slow');
+    //     }
+    // });
+
 });
 
 
