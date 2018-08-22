@@ -374,7 +374,7 @@
 }
 
 
-.box-wrapper-2:hover .project-info {
+.box-wrapper-2:hover .project-info, .box-wrapper-2:active {
   width: 100%;
 }
 .box-wrapper-3:hover .project-info {
