@@ -288,8 +288,58 @@
       /* line-height: 45px; */
       letter-spacing: 0px !important;
     }
+
+    .project-info{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+        overflow: hidden;
+        width: 0;
+        height: 100%;
+        transition: .5s ease;
+        background-color: white !important;
+      
+      }
+      .project-info-text{
+        /* color: white; */
+        font-size: 10px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+      }
+      
+      .box-wrapper-1, .box-wrapper-2, .box-wrapper-3, .box-wrapper-4, .box-wrapper-5,  .box-wrapper-6 {
+        position: relative;
+        width: 100%;
+      }
+      .box-wrapper-1:hover .project-info,  .box-wrapper-1:focus .project-info, .box-wrapper-1:active .project-info {
+        width: 100%;
+      }
+      
+      
+      .box-wrapper-2:hover .project-info {
+        width: 100%;
+      }
+      .box-wrapper-3:hover .project-info {
+        width: 100%;
+      }
+      .box-wrapper-4:hover .project-info {
+        width: 100%;
+      }
+      .box-wrapper-5:hover .project-info {
+        width: 100%;
+      }
+      .box-wrapper-6:hover .project-info {
+        width: 100%;
+      }
     
-      .box-1 {
+      .box-wrapper-1 {
         /* height: 100%; */
         grid-column: 1 !important;
         grid-row: 2 !important;
@@ -297,23 +347,23 @@
     
       
     
-      .box-2{
+      .box-wrapper-2{
         grid-column: 1 !important;
         grid-row: 3 !important;
       }
-      .box-3{
+      .box-wrapper-3{
         grid-column: 1 !important;
         grid-row: 4 !important;
       }
-      .box-4{
+      .box-wrapper-4{
         grid-column: 1 !important;
         grid-row: 5 !important;
       }
-      .box-5{
+      .box-wrapper-5{
         grid-column: 1 !important;
         grid-row: 6 !important;
       }
-      .box-6{
+      .box-wrapper-6{
         grid-column: 1 !important;
         grid-row: 7 !important;
       }
