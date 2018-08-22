@@ -5,6 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
   }
   a#scroll {
     width: 45px;
@@ -368,7 +369,7 @@
   position: relative;
   width: 100%;
 }
-.box:hover .project-info, .box:active  {
+.box:hover .project-info,  .box:focus, .box:active  {
   width: 100%;
 }
 
