@@ -16,7 +16,7 @@ and (orientation: landscape) {
       opacity: 0.8;
       position: fixed;
       bottom: 4%;
-      left: 80%;
+      left: 85%;
       display: none;
       text-indent: -10000px;
       outline: none !important;
@@ -59,6 +59,7 @@ and (orientation: landscape) {
   .media{
     height: 100% !important;
     grid-column: 2/4 !important;
+    display: none;
     
   }
   
@@ -186,7 +187,7 @@ and (orientation: landscape) {
      .projects-link{
        height: 100% !important;
        grid-column: 1/ 10 !important;
-       grid-row: 3;
+       grid-row: 3 !important;
        border-top: lightgrey solid 1px;
        border-bottom: lightgrey solid 1px;
        display: none;
@@ -196,7 +197,7 @@ and (orientation: landscape) {
      .about-contact{
        height: 100% !important;
        grid-column: 1 / 10 !important;
-       grid-row: 4;
+       grid-row: 4 !important;
        border-bottom: lightgrey solid 1px;
        display: none;
      }
@@ -204,7 +205,7 @@ and (orientation: landscape) {
      .contact{
        height: 100% !important;
        grid-column: 1/ 10 !important;
-       grid-row: 5;
+       grid-row: 5 !important;
        border-bottom: lightgrey solid 1px;
        display: none ;
       
@@ -220,22 +221,22 @@ and (orientation: landscape) {
     
   
      .project-text{
-      margin: 1% 0 0 5% !important;
+      margin: 0 0 0 5% !important;
       
       
      }
      .about-text{
-      margin: 1% 0 0 5% !important;
+      margin: 0 0 0 5% !important;
       
      }
      .contact-text{
-      margin: 1% 0 0 5% !important;
+      margin: 0 0 0 5% !important;
       
      }
      
      .projects-font{
        line-height: 40px;
-       font-size: 13px;
+       font-size: 10px;
        font-weight: 400;
        cursor: pointer;
        letter-spacing: 3px;
@@ -243,14 +244,14 @@ and (orientation: landscape) {
      }
      .about-font{
        line-height: 40px;
-       font-size: 12px;
+       font-size: 10px;
        font-weight: 400;
        cursor: pointer;
        letter-spacing: 3px;
      }
      .contact-font{
        line-height: 40px;
-       font-size: 12px;
+       font-size: 10px;
        font-weight: 400;
        cursor: pointer;
        letter-spacing: 3px;
