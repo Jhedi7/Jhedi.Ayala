@@ -299,7 +299,7 @@ div.intro{
     letter-spacing: 3px !important;
 }
 
-.box-1 {
+.box{
     height: 100%;
     grid-column: 2 / 5 !important;
     grid-row: 2 / 4 !important;
