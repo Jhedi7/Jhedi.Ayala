@@ -359,7 +359,7 @@ and (orientation: landscape) {
   
   }
   .project-info-text{
-    color: white;
+    /* color: white; */
     font-size: 10px;
     position: absolute;
     top: 50%;
