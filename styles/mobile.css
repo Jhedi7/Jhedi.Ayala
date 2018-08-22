@@ -368,7 +368,7 @@
   position: relative;
   width: 100%;
 }
-.box:hover .project-info {
+.box:hover .project-info, .box:active  {
   width: 100%;
 }
 
