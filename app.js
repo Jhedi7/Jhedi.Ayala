@@ -61,12 +61,12 @@ console.log('callback - particles.js config loaded');
 
 
 
-  ; (function(){
+   (function(){
 
     console.log('hovering')
-    var isTouch = false //var to indicate current input type (is touch versus no touch) 
-    var isTouchTimer 
-    var curRootClass = '' //var indicating current document root class ("can-touch" or "")
+    let isTouch = false //let to indicate current input type (is touch versus no touch) 
+    let isTouchTimer 
+    let curRootClass = '' //let indicating current document root class ("can-touch" or "")
      
     function addtouchclass(e){
         clearTimeout(isTouchTimer)
@@ -99,10 +99,10 @@ console.log('callback - particles.js config loaded');
 // console.log("ScrollMagic v%s loaded", ScrollMagic.version);
 
 // // init
-// var controller = new ScrollMagic.Controller();
+// let controller = new ScrollMagic.Controller();
 
 // // add scene for pin
-// var scene = new ScrollMagic.Scene({
+// let scene = new ScrollMagic.Scene({
 //         triggerElement: "#pinContainer",
 //         triggerHook: "onLeave",
 //         duration: "300%"
