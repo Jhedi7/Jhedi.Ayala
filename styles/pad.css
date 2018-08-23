@@ -362,6 +362,43 @@
         grid-column: 1 !important;
         grid-row: 7 !important;
       }
+
+      .resume-wrapper{
+        height: 150px;
+         width: 50%;
+         margin-left: 25%;
+         grid-column: 1;
+        grid-row: 7 !important;
+        align-items: center;
+    }
+    
+    .resume-button{
+        height: 60%;
+        width: 100%;
+        margin: 10% auto;
+        border: solid 1px;
+        border-color: lightgrey;
+        border-radius: 5px;
+    }
+    
+    .resume-button-link{
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .resume-button-text{
+        font-family: 'Open Sans', sans-serif !important;
+        font-family: 'Open Sans', sans-serif !important;
+        font-size: 40px;
+        font-weight: 300;
+        letter-spacing: 10px;
+        color: gray !important;
+    }
+    
       
     
       .paragraph-container{
