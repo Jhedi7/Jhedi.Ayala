@@ -350,6 +350,7 @@ div.intro{
 .box-wrapper-1, .box-wrapper-2, .box-wrapper-3, .box-wrapper-4, .box-wrapper-5,  .box-wrapper-6 {
   position: relative;
   width: 100%;
+  background-color: white !important;
 }
 .box-wrapper-1:hover .project-info {
   width: 100%;
