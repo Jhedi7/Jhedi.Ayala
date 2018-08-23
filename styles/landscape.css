@@ -29,12 +29,17 @@ and (orientation: landscape) {
   
   .icon-bar {
     position: fixed;
-    bottom: 0;
-    left: 15px;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
+  display: block !important;
+  z-index: 1000 !important;
+  background-color: rgba(211, 211, 211, .2);
+  top: 50%;
+  left: 15px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
   }
+
+  
   
   /* .media{
     height: 100% !important;
@@ -84,6 +89,8 @@ and (orientation: landscape) {
     z-index: 1000;
     
   }
+
+  
   
   .icon-bar a:hover {
     background-color: lightgrey;

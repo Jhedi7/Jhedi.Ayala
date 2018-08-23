@@ -25,8 +25,11 @@
 
 .icon-bar {
   position: fixed;
-  bottom: 0;
-  left: 5px;
+  display: block !important;
+  z-index: 1000 !important;
+  background-color: rgba(211, 211, 211, .2);
+  top: 50%;
+  left: 15px;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
@@ -37,12 +40,14 @@
   text-align: center;
   padding: 0 15px 0px 0px;
   transition: all 0.3s ease;
-  font-size: 20px;
+  font-size: 30px;
+  display: none !important;
 }
 
 .media{
   height: 100% !important;
   grid-column: 2/5 !important;
+  display: none !important;
   
 }
 
@@ -58,12 +63,12 @@
 
 /* Style the icon bar links */
 .icon-bar a {
-  display: none;
+  display: block;
   text-align: center;
   padding: 10px;
   transition: all 0.3s ease;
-  color: white;
-  font-size: 25px;
+  /* color: white; */
+  font-size: 20px;
   z-index: 1000;
   
 }
