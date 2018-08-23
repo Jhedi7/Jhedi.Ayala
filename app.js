@@ -75,7 +75,7 @@ console.log('callback - particles.js config loaded');
             curRootClass = 'can-touch'
             document.documentElement.classList.add(curRootClass)
         }
-        isTouchTimer = setTimeout(function(){isTouch = false}, 50) //maintain "istouch" state for 500ms so removetouchclass doesn't get fired immediately following a touch event
+        isTouchTimer = setTimeout(function(){isTouch = false}, 800) //maintain "istouch" state for 500ms so removetouchclass doesn't get fired immediately following a touch event
     }
      
     function removetouchclass(e){
