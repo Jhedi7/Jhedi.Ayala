@@ -344,16 +344,16 @@ div.intro{
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  /* white-space: nowrap; */
+  white-space: nowrap;
 }
 
 .box-wrapper-1, .box-wrapper-2, .box-wrapper-3, .box-wrapper-4, .box-wrapper-5,  .box-wrapper-6 {
   position: relative;
   width: 100%;
 }
-/* .box-wrapper-1:hover .project-info,  .box-wrapper-1:focus .project-info, .box-wrapper-1:active .project-info {
+.box-wrapper-1:hover .project-info {
   width: 100%;
-} */
+}
 
 
 .box-wrapper-2:hover .project-info{
