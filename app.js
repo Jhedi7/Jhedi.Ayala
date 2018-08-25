@@ -59,7 +59,7 @@ console.log('callback - particles.js config loaded');
 
 
 
-
+//HOVER ON MOBILE SOLUTION
 
    (function(){
 

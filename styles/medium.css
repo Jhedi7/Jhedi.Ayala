@@ -521,14 +521,14 @@
        
       .contact-container{
         display: grid !important;
-    grid-template-columns: 1fr !important;
-    grid-auto-rows: 40% !important;
-    grid-gap: rem !important;
-    /* margin-top: 380% !important; */
-    width: 90% !important;
-    height: 100% !important;
-    margin-left: 5% !important;
-    margin-right: 5% !important;
+        grid-template-columns: 1fr !important;
+        grid-auto-rows: 40% !important;
+        grid-gap: rem !important;
+        /* margin-top: 380% !important; */
+        width: 90% !important;
+        height: 100% !important;
+        margin-left: 5% !important;
+        margin-right: 5% !important;
       }
       
       
