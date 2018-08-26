@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jhedi Ayala</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
-  
-  
   <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
   <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.0/TweenMax.min.js"></script>
@@ -282,12 +280,41 @@
 
     <!-- Use the form below, or -->
 
-    <div id="map"></div>
+  <div id="map"></div>
 
-    <div class="contact-form"></div>
+          <div class="contact-form">
+            
+            <form action="/my-handling-form-page" method="post"> 
 
+              <div class="form-name">
+                
+                  <label for="name"> Name. </label>
+              
+                  <input type="text" id="name" name="user_name" />
+              </div>
+
+                
+              <div class="form-email">
+                <label for="mail"> Email. </label>
+                <input type="email" id="mail" name="user_email" />
+              </div>
+
+              <div class="form-msg">
+                <label for="msg"> Message. </label>
+                <textarea id="msg" name="user_message"></textarea>
+              </div>
+
+              <div class="form-button">
+                <button type="submit" >SUBMIT</button>
+              </div>
+
+          
+        </div>
   </div>
+
 </div>
+
+     
 <!-- END CONTACT PAGE -->
 
 <!-- FOOTER -->
