@@ -670,10 +670,10 @@ and (orientation: landscape) {
     overflow: visible;
     border-color: transparent;
     font-family: 'Open Sans', sans-serif !important;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
-  
-  }
+
+}
   
   input:focus,
   select:focus,
