@@ -731,14 +731,14 @@ button{
     bottom: 0 !important;
     border-top: 1px solid lightgray !important;
     margin-top: 95% !important;
-    height: 5% !important; 
+    height: 7% !important; 
     width: 100% !important;
 }
 .footer-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px !important;
   color: #43454B !important;
-  padding-top: 5% !important;
+  padding-top: 0% !important;
 }
 
 

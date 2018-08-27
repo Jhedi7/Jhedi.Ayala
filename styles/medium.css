@@ -698,9 +698,9 @@
     }
     .footer-text {
       font-family: 'Open Sans', sans-serif;
-      font-size: 14px !important;
-      color: #43454B !important;
-      padding-top: 5% !important;
+    font-size: 14px !important;
+    color: #43454B !important;
+    /* padding-top: 5% !important; */
     }
   
     
