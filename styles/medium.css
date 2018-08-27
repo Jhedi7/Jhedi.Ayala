@@ -145,27 +145,27 @@
     }
     
     .projects-font{
-        line-height: 0px;
-        font-size: 14px;
-        font-weight: 400 bold !important;
-        cursor: pointer;
-        letter-spacing: 3px;
-    
-    }
-    .about-font{
-        line-height: 0px;
-        font-size: 14px;
-        font-weight: 400 bold !important;
-        cursor: pointer;
-        letter-spacing: 3px;
-    }
-    .contact-font{
-        line-height: 0px;
-        font-size: 14px;
-        font-weight: 400 bold !important;
-        cursor: pointer;
-        letter-spacing: 3px;
-    }
+      line-height: 0px;
+      font-size: 11px;
+      font-weight: 400 bold !important;
+      cursor: pointer;
+      letter-spacing: 3px;
+     
+     }
+     .about-font{
+      line-height: 0px;
+      font-size: 11px;
+      font-weight: 400 bold !important;
+      cursor: pointer;
+      letter-spacing: 3px;
+     }
+     .contact-font{
+      line-height: 0px;
+      font-size: 11px;
+      font-weight: 400 bold !important;
+      cursor: pointer;
+      letter-spacing: 3px;
+     }
     
     #particles-js {
         /* background: rgb(37, 40, 52); */
@@ -207,7 +207,7 @@
         height: 100%;
         display: inline-block;
         text-align: center;
-        padding: 0 20px 0px 0px;
+        padding: 0 10px 0px 0px;
         transition: all 0.3s ease;
         color: white;
         font-size: 20px;
