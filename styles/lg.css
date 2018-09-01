@@ -577,7 +577,7 @@ div#map{
     height: 450px; 
     grid-column: 5 / 11!important;
     /* grid-row: 3 / 5 !important; */
-    margin-top: 25% !important;
+    margin-top: 20% !important;
 }
 form {
     height: 100%;
