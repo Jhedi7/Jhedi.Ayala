@@ -536,8 +536,8 @@ div#map{
 
 .contact-page{ 
     grid-column: 2 / 5 !important;
-    grid-row: 3 !important;
-    margin-top: 40% !important;
+    grid-row: 4 !important;
+    margin-top: 50% !important;
 }
 
 /* #map{ */
@@ -550,7 +550,7 @@ div#map{
 
 .contact-form{
     grid-column: 3 / 6;
-    grid-row: 3/4;
+    grid-row: 4/5 !important;
 
 }
 .contact-page-text {
@@ -577,7 +577,7 @@ div#map{
     height: 490px; 
     grid-column: 5 / 11!important;
     /* grid-row: 3 / 5 !important; */
-    margin-top: 20% !important;
+    margin-top: 30% !important;
 }
 form {
     height: 100%;
@@ -681,7 +681,7 @@ div.footer {
     align-items: center !important;
     bottom: 0 !important;
     border-top: 1px solid lightgray !important;
-    margin-top: 50% !important;
+    margin-top: 90% !important;
     height: 5% !important; 
     width: 100% !important;
 }
