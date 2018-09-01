@@ -536,7 +536,7 @@ div#map{
 
 .contact-page{ 
     grid-column: 2 / 5 !important;
-    grid-row: 4 !important;
+    grid-row: 3 !important;
     margin-top: 50% !important;
 }
 
@@ -550,7 +550,7 @@ div#map{
 
 .contact-form{
     grid-column: 3 / 6;
-    grid-row: 4/5 !important;
+    grid-row: 3/4 !important;
 
 }
 .contact-page-text {
